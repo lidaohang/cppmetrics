@@ -38,7 +38,6 @@ make_gtest() {
 
 fetch_and_install_dependencies() {
     DEPENDENCY_DIR=$1
-    rm -rf ${DEPENDENCY_DIR}/*
     SOURCE_DIR=${DEPENDENCY_DIR}/sources
     INSTALL_DIR=${DEPENDENCY_DIR}/install
     mkdir -p ${SOURCE_DIR}
